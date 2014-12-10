@@ -34,3 +34,4 @@ proj.android/libs/armeabi/gdbserver
 **/gen
 **/bin
 **/assets
+**/project.xcworkspace
