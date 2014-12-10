@@ -1,0 +1,3 @@
+[submodule "KillSwitch"]
+	path = KillSwitch
+	url = https://github.com/NextFaze/KillSwitch-cocos2dx
