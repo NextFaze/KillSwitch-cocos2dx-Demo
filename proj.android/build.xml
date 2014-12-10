@@ -57,6 +57,14 @@
             -post-build
             -pre-clean
     -->
+    <target name="-pre-compile">
+		<!-- Redefine project.all.jars.path before -compile executes -->
+		<path id="project.all.jars.path">
+            <fileset file="../cocos2d/cocos/platform/android/java/bin/classes.jar" />
+			<fileset file="../KillSwitch/proj.android/bin/classes.jar" />
+		</path>   
+	</target>
+    
     <import file="custom_rules.xml" optional="true" />
 
     <!-- Import the actual build file.

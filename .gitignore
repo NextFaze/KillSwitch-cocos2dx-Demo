@@ -26,3 +26,11 @@
 *.exe
 *.out
 *.app
+**/obj
+v3-deps-28.zip
+local.properties
+proj.android/libs/armeabi/gdb.setup
+proj.android/libs/armeabi/gdbserver
+**/gen
+**/bin
+**/assets
